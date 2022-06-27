@@ -1,4 +1,4 @@
-name: Build datasets
+name: Auto build dataset
 
 concurrency: 
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -7,6 +7,8 @@ concurrency:
 on:
   push: 
     branches: ["main"]
+  schedule:
+    cron: "0 0 * * *"
 
 jobs:
 

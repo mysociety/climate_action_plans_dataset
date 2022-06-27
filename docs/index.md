@@ -3,6 +3,6 @@ title: "Download climate_action_plans_dataset"
 layout: datasets/front
 ---
 
-# Dataset download site title
+# Climate Action Plan Datasets
 
-Here is some text underneath that.
+Raw crowdsourced data that is used to power the Climate Action Plan Explorer.

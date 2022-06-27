@@ -1,0 +1,36 @@
+name: climate_action_plans
+title: Climate Action Plans
+description: "Crowdsourced dataset of location of climate actions plans\n"
+version: 0.1.0
+licenses:
+- name: CC-BY-4.0
+  path: https://creativecommons.org/licenses/by/4.0/
+  title: Creative Commons Attribution 4.0 International License
+contributors:
+- title: mySociety
+  path: https://mysociety.org
+  role: author
+custom:
+  build: climate_action_plans_dataset.build:build
+  tests:
+  - test_climate_action_plans
+  dataset_order: 0
+  download_options:
+    gate: default
+    survey: default
+    header_text: default
+  composite:
+    xlsx:
+      include: all
+      exclude: none
+      render: true
+    sqlite:
+      include: all
+      exclude: none
+      render: true
+    json:
+      include: all
+      exclude: none
+      render: true
+  change_log:
+    0.1.0: initial version
