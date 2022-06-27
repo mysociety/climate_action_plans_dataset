@@ -1,4 +1,4 @@
-import template_data_repo
+import climate_action_plans_dataset
 
 import pytest
 

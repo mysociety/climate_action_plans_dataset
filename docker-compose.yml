@@ -1,8 +1,8 @@
 services:
   app:
-    image: mysociety/template_data_repo:${TAG:-latest}
+    image: mysociety/climate_action_plans_dataset:${TAG:-latest}
     build:
       context: .
       dockerfile: Dockerfile.dev
     volumes:
-      - ./:/workspaces/template_data_repo/
+      - ./:/workspaces/climate_action_plans_dataset/

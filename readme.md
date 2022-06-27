@@ -1,7 +1,12 @@
-# Template notebook
 
-This is a template notebook used for mySociety data science projects.
+# climate_action_plans_dataset
 
-You only update this repo, and don't clone directly from it. See instructions in [this repo](https://github.com/mysociety/notebook-auto-template) on how to use it as a template for new projects.
+[![badge](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/mysociety/climate_action_plans_dataset/HEAD)
 
-Instructions on using the features of this notebook are available in [data-repo-readme.md](src/data_common/data-repo-readme.md).
+Dataset of climate action plans
+
+This repository is available online at https://github.com/mysociety/climate_action_plans_dataset
+
+If Github Pages are enabled, the URL is: https://mysociety.github.io/climate_action_plans_dataset/
+
+Instructions on using the features of this notebook are available in [notebooks-readme.md](notebooks-readme.md).

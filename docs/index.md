@@ -1,5 +1,5 @@
 ---
-title: "Download template_data_repo"
+title: "Download climate_action_plans_dataset"
 layout: datasets/front
 ---
 
