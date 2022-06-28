@@ -3,8 +3,11 @@
 	"dockerComposeFile": "../docker-compose.yml",
 	"service": "app",
 	"overrideCommand": true,
-	"initializeCommand": ".devcontainer/initializeCommand",
+	"initializeCommand": [
+		".devcontainer/initializeCommand"
+	],
 	"postCreateCommand": ".devcontainer/postCreateCommand",
+	"workspaceFolder": "/workspaces/climate_action_plans_dataset",
 	"extensions": [
 		"ms-vscode.test-adapter-converter",
 		"bungcip.better-toml",
