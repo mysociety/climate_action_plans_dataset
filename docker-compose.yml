@@ -4,5 +4,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.dev
+    working_dir: /workspaces/climate_action_plans_dataset
     volumes:
       - ./:/workspaces/climate_action_plans_dataset/
